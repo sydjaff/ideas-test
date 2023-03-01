@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ideas | GulAhmed</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href=".{{asset('css/style.css/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -30,7 +30,7 @@
         <img src="./images/bg-img.png" />
       </div> -->
       <div
-        class="right-box text-center d-flex align-items-center justify-content-center"
+        class="right-box text-center d-md-flex align-items-center justify-content-center"
       >
         <div class="content">
           <div class="heading">
@@ -38,7 +38,7 @@
               Our Reqruitement Process
             </h5>
           </div>
-          <div class="icons d-flex align-items-center icons-row-one">
+          <div class="icons d-md-flex align-items-center icons-row-one">
             <div class="icon-circle">
               <i class="fa fa-users" style="background-color: #005d56"></i>
               <small>Applicant Pool</small>
@@ -58,7 +58,7 @@
           </div>
 
           <div
-            class="icons d-flex align-items-center justify-content-center icons-row-two"
+            class="icons d-md-flex align-items-center justify-content-center icons-row-two my-2"
           >
             <div class="icon-circle">
               <small>Phone Screening</small>
@@ -89,25 +89,29 @@
             </h4>
           </div>
           <div class="qr-section">
-            <h6 class="text-uppercase">connect us</h6>
+            <h6 class="text-uppercase my-2">connect us</h6>
             <img
-              src="./images/qr-img.png"
+              src="{{asset('images/qr-img.png')}}"
               alt="Qr Image"
               widdh="70"
               height="70"
             />
           </div>
+          <div class="linkedin-img my-3 gap-2 d-flex align-items-center justify-content-center">
+<img width="30" src="{{asset('images/linkedin-icon.png')}}">
+<small>LinkedIn/<br/>Ideas HR</small>
+          </div>
         </div>
       </div>
       <div
-        class="left-box text-center d-flex align-items-center justify-content-center"
+        class="left-box text-center d-md-flex align-items-center justify-content-center"
       >
         <div class="content">
           <div class="heading">
             <h5 class="text-uppercase">Join</h5>
           </div>
           <div class="ideas-logo">
-            <img src="./images/logo-ideas.png" alt="ideas logo" />
+            <img src="{{asset('images/logo-ideas.png)}}" alt="ideas logo" />
           </div>
           <div class="heading">
             <h5 class="text-uppercase">Achieve</h5>

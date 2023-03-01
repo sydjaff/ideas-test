@@ -21,8 +21,8 @@ button {
 .main-box {
     background-image: url(../images/bg-img.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 800px;
+    background-size: cover;
+    width: 900px;
     margin: 0 auto;
     height: 600px;
 }
@@ -41,6 +41,9 @@ button {
     width: 50%;
     float: left;
     height: 100%;
+}
+.left-box .heading h5 {
+    font-size: 50px;
 }
 .primary-color {
     color: #8cc63e;
@@ -69,10 +72,6 @@ button {
     justify-content: center;
     align-items: center;
 }
-.icons {
-    display: flex;
-    align-items: center;
-}
 
 .icon-circle {
     width: 25%;
@@ -87,4 +86,26 @@ button {
     margin: 12px;
     font-weight: 600;
     line-height: 15px;
+}
+.linkedin-img small {
+    font-size: 11px;
+    line-height: 13px;
+}
+@media only screen and (max-width: 767px) {
+    .main-box {
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .right-box,
+    .left-box {
+        width: 100%;
+    }
+    .icon-circle {
+        width: 100%;
+    }
+    .icons-row-two .icon-circle {
+        flex-direction: column !important;
+    }
 }
