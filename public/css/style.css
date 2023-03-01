@@ -1,39 +1,90 @@
+@font-face {
+    font-family: GothamBold;
+    src: url(fonts/Gotham-Font/GothamBold.ttf);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+span,
+small,
+div,
+a,
+button {
+    font-family: "GothamBold";
+}
 .main-box {
-  background-image: url(../images/bg-img.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 800px;
-  margin: 0 auto;
-  height: 600px;
+    background-image: url(../images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 800px;
+    margin: 0 auto;
+    height: 600px;
 }
 /* .main-box {
   width: 800px;
   margin: 0 auto;
 } */
 .main-img {
-  width: 100%;
+    width: 100%;
 }
 .ideas-logo img {
-  width: 200px;
+    width: 200px;
 }
 .right-box,
 .left-box {
-  width: 50%;
-  float: left;
-  height: 100%;
+    width: 50%;
+    float: left;
+    height: 100%;
 }
 .primary-color {
-  color: #8cc63e;
+    color: #8cc63e;
 }
 .primary-bg {
-  background: #8cc63e;
+    background: #8cc63e;
 }
 .apply-now-section {
-  border-top: 3px solid;
-  border-bottom: 3px solid;
-  display: inline-block;
-  border-color: #8cc63e;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    display: inline-block;
+    border-color: #8cc63e;
 }
 .ideas-logo img {
-  width: 250px;
+    width: 250px;
+}
+.icon-circle i {
+    background: #000;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 21px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0 7px #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-circle {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.icon-circle small {
+    font-size: 9px;
+    margin: 12px;
+    font-weight: 600;
+    line-height: 15px;
 }

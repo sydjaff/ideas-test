@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ideas | GulAhmed</title>
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -18,6 +18,10 @@
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
     />
   </head>
   <body>
@@ -34,43 +38,44 @@
               Our Reqruitement Process
             </h5>
           </div>
-          <div class="icons d-flex align-items-center">
+          <div class="icons d-flex align-items-center icons-row-one">
             <div class="icon-circle">
-              <i class="fa fa-users"></i>
+              <i class="fa fa-users" style="background-color: #005d56"></i>
               <small>Applicant Pool</small>
             </div>
             <div class="icon-circle">
-              <i class="fa fa-user-tie"></i>
+              <i class="fa fa-user-tie" style="background-color: #04ac4d"></i>
               <small>1<sup>st</sup> Interview</small>
             </div>
             <div class="icon-circle">
-              <i class="fa fa-list-check"></i>
+              <i class="fa fa-list-check" style="background-color: #01b19a"></i>
               <small>Document Submission/Evaluation</small>
             </div>
             <div class="icon-circle">
-              <i class="fa fa-handshake"></i>
+              <i class="fa fa-handshake" style="background-color: #4f53a4"></i>
               <small>Appointment</small>
-            </div>
-            <div class="icon-circle">
-              <small>Applicant Pool</small>
-              <i class="fa fa-users"></i>
             </div>
           </div>
 
-          <div class="icons d-flex align-items-center">
+          <div
+            class="icons d-flex align-items-center justify-content-center icons-row-two"
+          >
             <div class="icon-circle">
               <small>Phone Screening</small>
-              <i class="fa fa-mobile"></i>
+              <i class="fa fa-mobile" style="background-color: #06aab3"></i>
             </div>
             <div class="icon-circle">
               <small
                 >2<sup>nd</sup> Interview (Managerial/Critical Postion)</small
               >
-              <i class="fa fa-user-group"></i>
+              <i class="fa fa-user-group" style="background-color: #8ac640"></i>
             </div>
             <div class="icon-circle">
               <small>Offer Discussion</small>
-              <i class="fa fa-hand-holding-heart"></i>
+              <i
+                class="fa fa-hand-holding-heart"
+                style="background-color: #047fb3"
+              ></i>
             </div>
           </div>
           <div class="apply-now-section p-2">
@@ -86,7 +91,7 @@
           <div class="qr-section">
             <h6 class="text-uppercase">connect us</h6>
             <img
-              src="{{ asset('images/qr-img.png') }}"
+              src="./images/qr-img.png"
               alt="Qr Image"
               widdh="70"
               height="70"
@@ -102,7 +107,7 @@
             <h5 class="text-uppercase">Join</h5>
           </div>
           <div class="ideas-logo">
-            <img src="{{ asset('images/logo-ideas.png') }}" alt="ideas logo" />
+            <img src="./images/logo-ideas.png" alt="ideas logo" />
           </div>
           <div class="heading">
             <h5 class="text-uppercase">Achieve</h5>
